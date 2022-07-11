@@ -23,5 +23,12 @@ YuConv-cli je command line interface za [YuConv](https://github.com/ArtBIT/yucon
 
     $ cat cyrillic.txt | npx yuconv-cli to-latin -
 
+#### Napravite Bash alias-e
+    
+    $ alias 2lat='npx yuconv to-latin -'
+    $ alias 2cyr='npx yuconv to-cyrillic -'
+
+    $ pdftotext -layout izvod_iz_banke.pdf - | 2cyr | grep 'износ'
+
 # Licenca
 MIT
