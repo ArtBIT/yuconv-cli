@@ -21,7 +21,7 @@ YuConv-cli je command line interface za [YuConv](https://github.com/ArtBIT/yucon
 
 #### Pipe konvertuj tekst iz ćiriličnog u latinično pismo
 
-    $ cat cyrillic.txt | npx yuconv-cli to-latin
+    $ cat cyrillic.txt | npx yuconv-cli to-latin -
 
 # Licenca
 MIT
