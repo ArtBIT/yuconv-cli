@@ -1,8 +1,12 @@
 {
   "name": "yuconv-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Preslojavanje srpskog ćiriličnog pisma u latinično i obratno.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtBIT/yuconv-cli"
+  },
   "bin": {
     "yuconv-cli": "index.js"
   },

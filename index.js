@@ -12,7 +12,7 @@ program
 program
   .command("to-cyrillic")
   .description(
-    "Convert the specific file from Serbian latin to Serbian cyrillic alphabet."
+    `Convert the specific file from Serbian latin to Serbian cyrillic alphabet. If <filename> is set to - the input will be read from stdin instead.`
   )
   .argument("<filename>", "File to process, or - for stdin")
   .action(filename => converter.toCyrillic(filename));
@@ -20,7 +20,7 @@ program
 program
   .command("to-latin")
   .description(
-    "Convert the specific file from Serbian cyrillic to Serbian latin alphabet."
+    `Convert the specific file from Serbian cyrillic to Serbian latin alphabet. If <filename> is set to - the input will be read from stdin instead.`
   )
   .argument("<filename>", "File to process, or - for stdin")
   .action(filename => converter.toLatin(filename));
